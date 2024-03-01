@@ -3,6 +3,7 @@ num = input('Enter a number (decimal or integer): ')
 sf = 0
 num2 = num.replace(".","")
 num2 = num2.lstrip(" 0")
+num2 = num2.rstrip(" ")
 for x in num2:
   sf += 1
 
